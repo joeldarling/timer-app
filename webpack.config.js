@@ -24,7 +24,9 @@ module.exports = {
     alias: {
       Main: 'app/components/main.jsx',
       applicationStyles: 'app/styles/app.scss',
-      Nav: 'app/components/nav.jsx'
+      Nav: 'app/components/nav.jsx',
+      Timer: 'app/components/Timer.jsx',
+      Countdown: 'app/components/Countdown.jsx'
     },
     extensions: ['', '.js', '.jsx'] //list of file exts webpack should process
   },
