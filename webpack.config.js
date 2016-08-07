@@ -23,7 +23,8 @@ module.exports = {
     root: __dirname,
     alias: {
       Main: 'app/components/main.jsx',
-      applicationStyles: 'app/styles/app.scss'
+      applicationStyles: 'app/styles/app.scss',
+      Nav: 'app/components/nav.jsx'
     },
     extensions: ['', '.js', '.jsx'] //list of file exts webpack should process
   },
