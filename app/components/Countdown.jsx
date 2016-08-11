@@ -28,8 +28,10 @@ const Countdown = React.createClass({
       });
 
     }, 1000);
-    if(this.state.count === 0)
+    if(this.state.count === 0){
       clearInterval(this.timer);
+      this.setState({countdownStatus: 'stopped'});
+    }
   },
   handleSetCountdown: function(seconds){
     this.setState({
